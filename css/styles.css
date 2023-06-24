@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    padding: 10px 30px;
+}
+ 
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div h1{
+font-family: monospace;
+font-weight: bolder;
+font-size: 40px;
+}
+
+header div nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header div nav ul li{
+    list-style-type: none;
+}
+header div nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+
+.section{
+    min-height: 100vh;
+    padding: 120px 30px;
+    margin-bottom: 30px;
+}
+
+.section h1{
+   text-align: center;
+   font-size: 50px;
+}
+
+#home{
+    background-color: blue;
+}
+
+#about{
+    background-color: orange;
+}
+
+#clients{
+    background-color: navy;
+}
+
+#contact-us{
+    background-color: pink;
+}

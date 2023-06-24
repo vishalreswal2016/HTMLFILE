@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    border: 2px solid red;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 70px;
+}
+#child2{
+    border: 2px solid red;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 33.333%;
+    right: 33.33333%;
+    border-radius: 50%;
+    
+}

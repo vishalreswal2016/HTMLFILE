@@ -1,0 +1,13 @@
+#main-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.section{
+    padding: 40px 30px;
+    margin: 10px;
+}
+#hero-section{
+    min-height: 100vh;
+    border: 2px solid red;
+}

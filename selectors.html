@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: red;
+        }
+
+        .card{
+            border: 2px solid #c1c1c1;
+            border-radius: 5px;
+            width: 200px;
+            margin: 10px auto;
+            padding: 10px;
+            box-shadow: 2px 2px 16px;
+        }
+        .card > .title{
+            font-size: 25px;
+        }
+
+        .card + p{
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .card ~ p{
+            color: red;
+            text-align: center;
+        }
+
+        .card ~p :nth-child(4){
+            color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>desendant selector</li>
+        <li>child selector</li>
+        <li>Adjacent sibling selector</li>
+        <li>General sibling selector</li>
+    </ul>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem harum officiis assumenda dolore odit repellendus repudiandae eveniet! Qui eum totam reprehenderit voluptatum unde cum perferendis alias possimus, adipisci vel.</p>
+    </div>
+
+    <div class="card">
+        <img src="" alt="card-image">
+        <h3 class="title">image title</h3>
+    </div>
+    <p class="caption">this is caption</p>
+    <p class="caption">this will not be include (USE ~)</p>
+    <p class="caption">this will not be include (USE ~)</p>
+    <p class="caption">this will not be include (USE ~)</p>
+</body>
+</html>

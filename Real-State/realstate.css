@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: #cad5e2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#navbar{
+    max-width: var(--max-container-width);
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container{
+    width: 80px;
+    object-fit: cover;
+}
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-menu .menu-item .menu-item-link{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 0px; 
+}
+.container{
+    max-width: var(--max-container-width);
+    margin: auto;
+}
+#hero{
+    height: 100vh;
+    /* background: linear-gradient(rgb(255, 255, 255, 0) 0%rgb(0, 0, 0, 1) 100%), url("/Real-State/bag.jpg"); */
+    background: linear-gradient(rgb(255, 255, 255, 0) 0%, rgb(0, 0, 0, 1) 100%), url("/Real-State/bag.jpg");
+    background-position: center;
+    background-repeat: no-repeat ;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#hero .container{
+    max-width: 50%;
+    color: #cad5e2;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 50px;
+}
+.heading + p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.container .btn{
+    border: 2px solid #cad5e2;
+    padding: 10px 17px;
+    background-color: #4c0000d8;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.2s ease-in all;
+}
+.container .btn:hover{
+    background-color: #4c0000;
+}

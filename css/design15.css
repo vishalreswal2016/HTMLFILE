@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+min-height: 100vh;
+display: flex;
+background-color: cornflowerblue;
+align-items: center;
+justify-content: center;
+}
+
+.circle{
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    position: absolute;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.433);
+}
+
+.circle:hover{
+    background-color: black;
+}
+
+.hero{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+   
+}
+.hero:hover{
+    background-color: black;
+}
+
+#c0{
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    border-radius: 50%;
+}
+/* .container:hover{
+    color: rgba(128, 128, 128, 0.462);
+} */
+
+#c1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+#c2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(15, 210, 100);
+}
+
+#c3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#c4{
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+}
+
+#c5{
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+}
+
+#c6{
+    width: 50px;
+    height: 50px;
+    background-color: slategrey;
+}
+
+#cl{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+#topi{
+    text-align: center;
+    position: relative;
+    top: 4.5px;
+    font-size: 50px;
+}
+#c0:hover{
+    background-color: black;
+}
+#c1:hover{
+    background-color: black;
+}
+#c2:hover{
+    background-color: black;
+}
+#c3:hover{
+    background-color: black;
+}
+#c4:hover{
+    background-color: black;
+}
+#c5:hover{
+    background-color: black;
+}
+#c6:hover{
+    background-color: black;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: inline;
+}
+#img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.hero-section{
+border: 1px solid black;
+width: 300px;
+align-items: center;
+border-radius: 10px;
+}
+.card{
+    border: 1px solid black;
+    display: inline;
+    background-color: blanchedalmond;
+}
+.card span{
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    
+}
+
+.use{
+    border: 1px solid black;
+    justify-items: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+
+}
+#hed{
+    padding: 10px;
+}
+#cont{
+    border-radius: 50%;
+}
+
+#pass{
+    overflow: hidden;
+}

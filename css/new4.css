@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.ads{
+    border: 2px solid red;
+    background: black;
+    width: 200px;
+    height: 300px;
+    color: white;
+    position: sticky;
+    top: 150px;
+    right: 10px;
+}
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 400px;
+    background: #cec8c8;
+    top: 0;
+    right: 0;
+
+}
+.sidebar span{
+    font-family: sans-serif;
+    border: 2px solid red;
+    font-size: large;
+    padding: 12px;
+    position: absolute;
+    cursor: pointer;
+    right: 0%;
+    user-select: none;
+}
+.page{
+    text-align: center;
+    height: 100vh;
+    padding: 120px 40px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+    text-size-adjust: 30;
+}
+#home{
+    
+background-color: aliceblue;
+}
+#about{
+    background-color: aqua;
+}
