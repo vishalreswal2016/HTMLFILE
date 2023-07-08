@@ -1,0 +1,18 @@
+.todo-item {
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 10px;
+    margin-bottom:px ;
+  }
+  
+  .action-holder {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-holder input {
+    padding: 10px;
+  }
